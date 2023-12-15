@@ -1,0 +1,36 @@
+{
+  "name": "wad-hw4",
+  "version": "1.0.0",
+  "description": "This is the fourth homework of 'Web Application Development' course",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gulnar-Mammadli/WAD-hw4.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "vue"
+  ],
+  "author": "Gulnar Mammadli, Leyla Rahimli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gulnar-Mammadli/WAD-hw4/issues"
+  },
+  "homepage": "https://github.com/Gulnar-Mammadli/WAD-hw4#readme",
+  "devDependencies": {
+    "express": "4.18.2",
+    "nodemon": "3.0.2",
+    "pg": "8.11.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "2.8.5",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
